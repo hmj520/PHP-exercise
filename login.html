@@ -1,0 +1,15 @@
+<html>
+        <meta charset="UTF-8">
+        <title>用户登录页面</title>    
+        <form action = "check.php" method="post">
+            <input name="token" type="hidden" value="<?php echo $token; ?>">
+            请输入您的账号：<br>
+            <input type = "text" name="username">
+            <br>
+            请输入您的密码：<br>
+            <input type = "text" name="password">
+            <br>
+            <input type = "submit" value="Submit">
+        </form>
+       
+</html>
